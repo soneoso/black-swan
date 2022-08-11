@@ -5,6 +5,7 @@ import flower from '.././Assets/flower.svg'
 import another from '.././Assets/another.svg'
 import arrow from '.././Assets/arrow.svg'
 import { Link } from 'react-router-dom';
+import GetInTouch from '../GetInTouch/GetInTouch';
 
 function Home() {
   return (
@@ -134,6 +135,7 @@ function Home() {
             <p>Click Me!</p>
           </div>
         </div>
+        <GetInTouch />
       </div>
     </div>
   )
