@@ -19,13 +19,19 @@ function Header() {
                 <Link to="/about" className='li'>About</Link>
             </li>
             <li>
-                <Link to="/projects" className='li'>Projects</Link>
+                <Link to="/projects" className='li'>Reserve A Table</Link>
             </li>
             <li>
                 <Link to="/contact" className='li'>Contact</Link>
             </li>
             <li>
-                <Link to="" className='li'>Youtube</Link>
+                <Link to="" className='li'>Team</Link>
+            </li>
+            <li>
+                <Link to="" className='li'>Book A Stay</Link>
+            </li>
+            <li>
+                <Link to="" className='li'>Menu</Link>
             </li>
         </ul>
     </header>

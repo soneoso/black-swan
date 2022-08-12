@@ -6,6 +6,7 @@ import another from '.././Assets/another.svg'
 import arrow from '.././Assets/arrow.svg'
 import { Link } from 'react-router-dom';
 import GetInTouch from '../GetInTouch/GetInTouch';
+import Footer from '../Footer/Footer';
 
 function Home() {
   return (
@@ -32,7 +33,7 @@ function Home() {
             <p>Radisson</p>
           </div>
           <div className="txt-line line-bottom" id="designer">
-            <p>Blue</p>
+            <p>Blu</p>
           </div>
         </div>
       </div>
@@ -136,6 +137,7 @@ function Home() {
           </div>
         </div>
         <GetInTouch />
+        <Footer />
       </div>
     </div>
   )
