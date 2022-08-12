@@ -24,26 +24,26 @@ function About() {
                         </div>
                     </div>
                     <div className="container-quote container-quote1">
-                        I create sites and <br /> applications that cause <br /> pleasant emotions
+                        lorem lorem <br /> lorem lorem <br /> lorem lorem
                     </div>
                     <div className="container-quote container-quote2">
-                        I specialize in interaction <br /> design, experience websites <br /> and applications
+                    lorem lorem <br /> lorem lorem <br /> lorem lorem
                     </div>
                     <div className="container-image"></div>
                 </div>
                 <div className="about-container2">
                     <div className="about-container2-heading">
                         <div className="about-text-lower">
-                            <p>Web Designer,</p>
+                            <p>Restaurant,</p>
                         </div>
                         <div className="about-text-lower">
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Front-End</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food</p>
                         </div>
                         <div className="about-text-lower">
-                            <p>&nbsp;Developer&nbsp;&nbsp;&nbsp; &</p>
+                            <p>&nbsp;People&nbsp;&nbsp;&nbsp; &</p>
                         </div>
                         <div className="about-text-lower">
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp; a Youtuber</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp; Service</p>
                         </div>
                     </div>
                     <div className="about-container2-p">
@@ -58,7 +58,7 @@ function About() {
                     </div>
                     <div className="about-container2-heading2">
                         <div className="about-text-lower">
-                            <p>What is my feature?</p>
+                            <p>Lorem lorem?</p>
                         </div>
                     </div>
                     <div className="about-container2-p">

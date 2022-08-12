@@ -4,7 +4,7 @@ import Home from './Home/Home'
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
-import ScrollToTop from './ScrollToTop/ScrollToTop';
+import ScrollToTop from 'react-scroll-to-top';
 import React from 'react';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <div className="noise"></div>
 
         <div className="App">
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
           <Switch>
             <Route path="/" exact><Home /></Route>
           </Switch>

@@ -2,16 +2,19 @@ import React from 'react'
 import Header from '../Header/Header';
 import './Home.css'
 import flower from '.././Assets/flower.svg'
+import ivy from '../Assets/ivy.png'
 import another from '.././Assets/another.svg'
 import arrow from '.././Assets/arrow.svg'
 import { Link } from 'react-router-dom';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import Footer from '../Footer/Footer';
+import { Parallax } from 'react-parallax';
 
 function Home() {
   return (
     <div className="home">
       <Header />
+
       <div className="container">
         <div className="container1">
           <div className="txt-line" id="black">
@@ -21,7 +24,9 @@ function Home() {
             <p>Swan</p>
           </div>
         </div>
-        <div></div>
+        <div>      <div className="ivy-container">
+        <img src={ivy} alt="" />
+      </div></div>
       </div>
       <div className="left-side-quote">
         <p >This is the official website for the Black Swan Restaurant <br /> Great food, carefully selected drinks and ... <br /> Great experiance, More food and love hospitality  </p>
@@ -75,57 +80,11 @@ function Home() {
           <div className="reel-item">&nbsp;  BLACK</div>
           <div className="reel-item">&nbsp;  SWAN</div>
         </div>
-        <div className="skill-set-boxes">
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
+        <div className="paralax-image-container">
+          <div className="paralax1">
+          
           </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">lorem</h1>
-            <p className="skill-set-box-p">lorem</p>
-            <p>___</p>
-          </div>
+        </div>
           <div className="project-and-work">
             <h1>
               <Link className="h1-project" to="/projects">
@@ -139,7 +98,7 @@ function Home() {
         <GetInTouch />
         <Footer />
       </div>
-    </div>
+
   )
 }
 
